@@ -1,0 +1,45 @@
+# SelamatRide SmartSchoolBus - Git Ignore
+
+# Logs
+logs/*.log
+logs/*.txt
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# User uploads
+uploads/*
+!uploads/.gitkeep
+
+# Environment-specific
+config_local.php
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*.sql.gz
+
+# Sensitive data
+update_passwords.php
+migrate_passwords.php
+
+# Node modules (if using any frontend build tools)
+node_modules/
+package-lock.json
+
+# Composer (if using)
+vendor/
+composer.lock
